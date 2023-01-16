@@ -1,0 +1,90 @@
+body{
+    background-image: url("../kepek/virtualizacio-elonyei-jobb-mint-a-valodi-9af8d9a9.jpg");
+    background-size: 100% 200%;
+    color: blue;
+}
+
+h1{
+    text-align: left;
+    color: darkblue;
+    background-color: rgba(245, 245, 245, 0.8);
+    margin-top: 50px;
+    padding-left: 20px;
+}
+
+h2{
+    margin-left: 80px;
+    text-align: left;
+    color: blue;
+}
+
+h3{
+    color: navy;
+    margin-left: 80px;
+    text-align: left;
+}
+
+li{
+    margin-left: 80px;
+    text-align: left;
+}
+
+p{
+    text-align: justify;
+    color: blue;
+    padding-left: 80px;
+    padding-right: 80px;
+    
+}
+
+hr{
+    width: 88%;
+    color: steelblue;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 88px;
+}
+
+.navbar{
+    background-color: lightblue;
+}
+
+header{
+    background-image: url("../kepek/High_resolution_wallpaper_background_ID_77700406700.jpg");
+    height: 150px;
+    background-position: center center;
+}
+
+.container{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: rgba(245, 245, 245, 0.8);
+    width: 120%;
+}
+
+.img-thumbnail{
+    margin-left: auto;
+    margin-right: 80px;
+    align-self: auto;
+    height: 200px;
+    float: right;
+}
+
+img{
+    float: right;
+    padding-right: 80px;
+    padding-left: 10px;
+    display: block;
+    height: 200px;
+}
+
+.row{
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.forras{
+    margin-left: 80px;
+}

@@ -1,0 +1,35 @@
+3. milyen előnyei vannak?
+
+Programok kipróbálása
+Régi Windows és DOS játékok használata
+Új vagy más operációs rendszerek kipróbálása, használata közvetlen a Windows alatt.
+Régi hardver használata, amihez nincs már illesztő program
+Ideiglenes feladat megoldása, amivel nem szeretnéd össze kuszálni az eredeti géped
+Rosszindulatú programok, tesztelése vagy elzárása a fő gépedtől
+Az operációs rendszered tesztelése
+Rendszer klónozása másik gépre
+
+
+Programok kipróbálása:
+Van egy programot amit szeretnél kipróbálni vagy telepíteni. De nem mered a saját gépedre telepíteni, mert félsz, hogy tönkre teszi a jól beállított rendszered. Ilyenkor lenne jó erre egy külön gép. Ez a különgép egy virtuális gép is lehet, ami tökéletesen megfelel erre a célra. 
+
+Régi Windows és DOS játékok használata
+Ha egy régi Windowsos vagy DOS játékkal szeretnél játszani a legbiztosabb, ha az eredeti rendszerét teszed alá. Telepíted a szükséges DOS, vagy Windows verziót, majd futtathatod a játékot ebben a jól elzárt környezetben, sokkal biztonságosabb, mert a virtuális gépen belül egy teljesen szeparált környezetben futnak.
+
+Új vagy más operációs rendszerek kipróbálása, használata közvetlen a Windows alatt.
+A gazdagép az Windows rendszerben dolgozik, és ezen belül egy ablakban fog futni a Linux. Még ha valami hiba történik is a vendég operációs rendszerrel, például rosszindulatú program, fertőzés, vagy sérülés, az sincs hatással a gazda gépnek a rendszerére.
+
+Régi hardver használata, amihez nincs már illesztő program.
+Ha van olyan régi hardvered, nyomtató vagy szkenner amihez nincs már illesztőprogram, az új operációs rendszer alá akkor is jó szolgálatot tesz egy virtuális gép. Azt az operációs rendszert kell letölteni, ami alatt még működött a hardver.
+
+Ideiglenes feladat megoldása, amivel nem szeretnéd össze kuszálni az eredeti géped.
+Szintén nagyon jól használhatók a virtuális gépek, alkalmazás fejlesztésnél, webhelyek tesztelésénél, amikor ezeket más operációs rendszerek alatt is ellenőrizni kell. Ha például egy olyan alkalmazást fejlesztesz, amit asztali környezetben és mobil platformon is használni fognak.
+
+Rosszindulatú programok, tesztelése vagy elzárása a fő gépedtől
+Ha telepített virtuális gépedről készítesz egy export fájt. Akkor olyan, biztonsági kockázatot jelentő tesztelést is végezhetsz, ami a vendég operációs rendszert sérti, használhatatlanná teszi.
+
+Az operációs rendszered tesztelése
+Egy operációs rendszer mélyebb megismerését anélkül, hogy a jól működő rendszered tönkre tennéd. A meglévő Windows 10 rendszered mellé, feltelepítesz egy másik, szintén Windows 10 rendszert.
+
+Rendszer klónozása másik gépre
+Ezeknek a virtuális gépeknek van egy nagyon nagy előnye. Mégpedig az, hogy egy-egy gép teljes tartalma, néhány fájlban van tárolva. Így bármikor könnyedén át viheted egy másik számítógépre Feltéve ha azon a számítógépen is telepítve van a virtualbox.

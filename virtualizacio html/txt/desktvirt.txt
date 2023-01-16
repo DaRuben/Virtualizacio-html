@@ -1,0 +1,45 @@
+Desktop virtualizáció
+
+
+A desktop virtualizáció során a virtuális gépet használó hálózati felhasználók létrehozhatnak maguknak testreszabott asztalt a központi szervergépen.
+A felhasználók lehetnek egymástól távol is, vagy a helyi hálózaton (LAN) vagy az interneten keresztül csatlakoznak a virtuális géphez.
+
+A szervervirtualizáció már évek óta felkapott téma, közkedvelt adatközponti technikává vált, köszönhetően számos előnyének.
+Hely- és eszköztakarékos megoldás, mellyel működési költséget lehet csökkenteni, ugyanakkor a terhelés egyenletesen magas szinten tartható.
+Hasonló előnyöket azonban nem csak a kiszolgálóknál lehet elérni, hanem az asztali számítógépek frontján is.
+
+Desktop virtualizációval csökkenthetők a költségek, könnyebbé válik a felügyelet, emellett korábban elképzelhetetlen rugalmasságot kapnak pénzükért cserébe az asztali gépeket illetően a vállalatok.
+Ezzel a lépéssel növelhető az erőforrás kihasználtság, az energia hatékonyság. A használatban lévő szerver hardverek száma drasztikusan csökkenthető.
+Rövidebb idő szükséges az újabb szoftver környezetek kialakítására, mert egy újabb operációs rendszer üzembehelyezése nem jár szükségszerűen együtt egy újabb hardver beszerzésével. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

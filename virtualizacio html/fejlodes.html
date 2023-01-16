@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Virtualizáció fejlődése</title>
+</head>
+
+<body>
+
+    <header class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="rounded">Virtualizáció</h1>
+            </div>
+        </div>
+    </header>   
+
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="collapse navbar-collapse container-fluid" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="virtualizacio.html">Virtualizáció</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="gepigeny.html">Gépigény</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="elonyei.html">Előnyei</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="fejlodes.html">Fejlődése</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="szerver_oldali.html">Szerver oldali virtualizáció</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="kliens_oldali.html">Kliens oldali virtualizáció</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="forrasok.html">Források</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container rounded">
+    <h2>A virtualizáció fejlődése</h2>
+    <hr>
+
+    <p></p>
+
+    <h3>Az első korszak</h3>
+    <p>A virtualizáció első korszaka a nagy adatközponti ugrás volt.</p>
+    <p>A VMware úttörő szerepet játszott a virtualizációban az ESX hypervisorral, és uralta a piacot, gyorsan elhozva a
+        virtuális gépek számos előnyét a vállalatok számára szerte a világon.
+        Noha sok kihívó jelent meg, egyikük sem tudta kivenni a részét a hagyományos virtualizációs piacon.</p>
+
+    <h3>Az második korszak</h3>
+    <p>A virtualizáció második korszaka a felhőre való átállás volt. Már nem arról volt szó, hogy a virtuális gépeket
+        csak a helyszínen üzemeltetjük; hanem arról volt szó, hogy nyilvános felhőkön futtassák őket, mint például az
+        Amazon Web Services, az Azure, a Google és még sok más.</p>
+    <p>A felhasználók igény szerint elküldhetik virtuális gépeiket a felhőbe, ahelyett, hogy beadnák a jegyet, és
+        megvárnák, amíg az IT hozzárendeli virtuális gépeiket az adatközponti infrastruktúrán.</p>
+
+    <h3>Az harmadik korszak</h3>
+    <p>A virtualizáció harmadik korszaka valójában a hipervizortól és a hagyományos virtuális gépektől való eltávolodás
+        volt: a konténerek kora. Ahogyan a virtualizáció a hypervisor erejét kihasználva sok egyedi virtuális szerverre
+        bontotta a fizikai szervereket, amelyek mindegyike saját operációs rendszert futtatott, ugyanúgy a konténerezés
+        is felosztotta az ezeken a virtuális gépeken vagy közvetlenül a fémkiszolgálókon futó egyetlen Linux operációs
+        rendszert.</p>
+    <p>Kisebb alkalmazási sandboxok a névterek, a cgroupok és a Docker-csomagolási formátum erejével, amelyeket az Open
+        Container Initiative szabványosított.</p>
+    <p>Ez lehetővé tette az úttörő fejlesztők számára, hogy konténeres mikroszolgáltatásokat építsenek ki és
+        biztosítsanak helyi gépeiken, és konzisztensen és igény szerint teszteljék, színpadra állítsák és termelési
+        környezetbe tegyék őket.</p>
+
+    <h3>Az negyedik korszak</h3>
+    <p>Több mint négy éve elindítottuk a KubeVirt projektet, amely virtuális gépeket kezel a Kubernetes konténerei
+        mellett. Kihasználva azt a tényt, hogy a KVM hypervisor maga egy Linux-folyamat, amely konténerbe helyezhető, a
+        KubeVirt lehetővé teszi a KVM-alapú virtuális gépek munkaterheléseinek pod-okként történő kezelését a
+        Kubernetesben.</p>
+    <p>Ez azt jelenti, hogy virtuális gépeit modern, Kubernetes-alapú felhőalapú natív környezetbe hozhatja anélkül,
+        hogy a tényleges alkalmazásnak kellene ugrani a konténerekhez.</p>
+
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

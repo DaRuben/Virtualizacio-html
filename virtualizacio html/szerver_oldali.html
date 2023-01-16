@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Szerver oldali virtualizáció</title>
+</head>
+
+<body>
+    <header class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="rounded">Virtualizáció</h1>
+            </div>
+        </div>
+    </header>   
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="collapse navbar-collapse container-fluid" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="virtualizacio.html">Virtualizáció</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gepigeny.html">Gépigény</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="elonyei.html">Előnyei</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="fejlodes.html">Fejlődése</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="szerver_oldali.html">Szerver oldali virtualizáció</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="kliens_oldali.html">Kliens oldali virtualizáció</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="forrasok.html">Források</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+<div class="container rounded">
+
+    <h2>Alkalmazás virtualizáció</h2>
+    <hr>
+    <img src="kepek/server.jpg" alt="">
+    <p>Az alkalmazásvirtualizáció a virtualizáció egy fajtája, olyan szoftvertechnológiák összefoglaló neve, melyek elszigetelve az alkalmazást (az alkalmazás konfigurációs rétegét) az alatta futó operációs rendszertől, növelik annak átültethetőségét (portolhatóságát), menedzselhetőségét és kompatibilitását. Egy teljesen virtualizált alkalmazást nem telepítenek a szó megszokott értelmében, bár ugyanúgy futtatható, mintha telepítve lenne.
+        Az alkalmazás futtatásakor úgy érzékeli, hogy az eredeti operációs rendszerrel és annak erőforrásaival van kapcsolatban, de a valóságban nem ez történik. Az alkalmazásvirtualizációt megkülönbözteti a virtuális gépektől, hogy azoknál a teljes operációs rendszer virtuális környezetben fut, nem csak egyes alkalmazások.</p>
+<p>Az alkalmazásvirtualizáció korlátozott mértékben jelen van a modern operációs rendszerekben, mind Microsoft Windows, mind Linux alatt.
+    A teljes alkalmazásvirtualizációhoz virtualizációs rétegre van szükség. Ennek a rétegnek a feladata, hogy a virtualizált alkalmazások által kezdeményezett valamennyi fájl- és beállításjegyzék-műveletet „elfogja”, és transzparens módon átirányítsa virtualizált helyükre.
+    </p>
+<p>A fájlműveletet végző alkalmazás nem tud róla, hogy nem azt az erőforrást éri el, mint amit elérni próbált.
+    Ilyen módon a sok különálló fájlból álló, sok beállítással bíró alkalmazások portolhatóvá tehetők minden input/output műveletük egyetlen fájlba irányításával, és egymással hagyományosan inkompatibilis alkalmazások is egymás mellett futtathatók. Windows platformon a Citrix XenApp,
+    a Novell ZENworks Application Virtualization, a Microsoft Application Virtualization, az Altiris Software Virtualization Solution és a VMware ThinApp alkalmazzák ezt a technológiát.
+    </p>
+
+<h3>Technológiák:</h3>
+<p>Application streaming (kb. alkalmazásközvetítés). Az alkalmazás csomagba pakolva érkezik, ami tartalmazhat egyes operációsrendszer-állományokat és konfigurációs beállításokat is. A csomag futtatásához egy könnyűsúlyú kliensalkalmazás telepítése szükséges. A csomagok általában HTTP vagy RTSP protokollon érkeznek. Az alkalmazásvirtuáció gyakran jár együtt az alkalmazások igény szerinti futtatását lehetővé tevő application streaminggel.
+</p>
+<p>Desktop-virtualizáció/Virtual Desktop Infrastructure (VDI), a végfelhasználó számítógépes munkakörnyezetének (alkalmazások, fájlok, adatok) elkülönítése a hardvertől, amin fut a környezet. Az alkalmazás egy virtuális gépen vagy (operációs rendszert is tartalmazó) blade PC-n fut. Ezekhez a megoldásokhoz hozzátartozik az az infrastruktúra, ami a virtuális munkakörnyezetek (desktopok) létrehozását, azok jogosultság-kezelését, a munkakörnyezetek és a felhasználók összerendelését menedzseli. A VDI megoldásokra ott lehet szükség, ahol az application streaming már kevésnek bizonyul.
+</p>
+<h3>Az alkalmazásvirtualizáció előnyei</h3>
+<ul>
+<li>Megvédheti az operációs rendszert és a többi alkalmazást a hibásan megírt programkódoktól.</li>
+<li>Kevesebb erőforrást használ, mint egy különálló virtuális gép.</li>
+<li>Egyszerűsített átállás más operációs rendszerre.</li>
+<li>A vállalat könnyebben számon tarthatja a szoftverlicenc-használatot.</li>
+<li>Az alkalmazások felhasználási statisztikái felhasználhatók a licencköltségek csökkentésére.</li>
+</ul>
+
+<h3>Az alkalmazásvirtualizáció hátrányai:</h3>
+<ul>
+    <li>Az alkalmazásokat „be kell csomagolni” vagy „sorrendbe kell rakni” mielőtt virtualizáltan futtathatók lennének.</li>
+    <li>Minimálisan, de megnő az erőforrásigény (memória- és lemezigény).</li>
+    <li>Nem minden szoftvert lehet virtualizálni. Ilyen különleges alkalmazások például azok, amiknek eszközmeghajtóra van szükségük, valamint a 16 bites alkalmazások, amiknek az osztott memóriában kell futniuk.</li>
+    <li>Egyes programokat, pl. vírusirtókat vagy az operációs rendszerrel szorosan integrált alkalmazásokat, mint pl. a Windowblinds vagy a StyleXP igen nehéz virtualizálni.</li>
+    <li>Az elavult alkalmazások és az újabb operációs rendszerek közötti problémák közül csak a fájl- és beállításjegyzék-szintű kompatibilitási problémák oldhatók meg alkalmazásvirtualizációval.</li>
+</ul>
+
+
+</div>        
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
